@@ -94,3 +94,19 @@ for (caracteristicas in alien){
 console.log(caracteristicas + ': '+ alien[caracteristicas])
 }
 
+//! iteracion 5
+
+/*Usa un bucle for para recorrer todos los destinos del array y elimina los elementos 
+que tengan el id 11 y 40. Imprime en un console log el array. Puedes usar este array:*/
+
+const sitiosViaje = [{id: 5, name: 'Japan'}, {id: 11, name: 'Venecia'}, {id: 23, name: 'Murcia'}, {id: 40, name: 'Santander'}, {id: 44, name: 'Filipinas'}, {id: 59, name: 'Madagascar'}]
+
+
+ 
+for (i=0; i<sitiosViaje.length; i++){
+
+    (sitiosViaje[i]['id'] === 11 || sitiosViaje[i]['id'] === 40)
+    ? delete sitiosViaje[i]
+    : console.log(sitiosViaje[i]['name']);
+   
+}
