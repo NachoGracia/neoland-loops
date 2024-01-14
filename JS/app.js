@@ -78,3 +78,19 @@ for (let destinos of placesToTravel) {
     console.log("🚀 ~ destinos:", destinos)
     
 }
+
+//! iteracion 4
+
+// con for in
+
+const alien = {
+    name: 'Wormuck',
+    race: 'Cucusumusu',
+    planet: 'Eden',
+    weight: '259kg'
+}
+
+for (caracteristicas in alien){
+console.log(caracteristicas + ': '+ alien[caracteristicas])
+}
+
