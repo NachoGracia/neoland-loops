@@ -41,7 +41,9 @@ console.log("🚀 ~ resultadoSinCamisetaSegundo:", resultadoSinCamisetaSegundo)
 
 
 
-//! iteración 2
+//! iteración 2 
+
+//? Está bien el ejercicio?
 
 /*Comprueba en cada uno de los usuarios que tenga al menos dos trimestres aprobados y añade la propiedad isApproved a true o false en consecuencia. 
 Una vez lo tengas compruébalo con un console.log. */
@@ -66,3 +68,13 @@ if (notas.T1 + notas.T2 + notas.T3 >= 2){ //como true es 1 y false 0, podemos ha
 
 //! iteracion 3
 
+/*Usa un bucle forof para recorrer todos los destinos del array. Imprime en un ***console.log*** sus valores.
+
+Puedes usar este array:*/
+
+const placesToTravel = ['Japon', 'Venecia', 'Murcia', 'Santander', 'Filipinas', 'Madagascar']
+
+for (let destinos of placesToTravel) {
+    console.log("🚀 ~ destinos:", destinos)
+    
+}
